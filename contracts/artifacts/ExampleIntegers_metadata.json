@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myInt8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myInt",
+						"type": "uint256"
+					}
+				],
+				"name": "updateMyInt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_myInt8",
+						"type": "uint8"
+					}
+				],
+				"name": "updateMyInt8",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleIntegers.sol": "ExampleIntegers"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleIntegers.sol": {
+			"keccak256": "0x2c649a965202cfd11ca05c2d3b3ad2737694bed3c715404807bed3b9881951ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://baf98145f357eea619c0c20cd5666b08ed7b73888f029e416697f3a5bddb6887",
+				"dweb:/ipfs/QmZySxxCoo1zZ34638jnbDD6o7pX3MgvhxhnFQrkYkGndg"
+			]
+		}
+	},
+	"version": 1
+}

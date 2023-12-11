@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_updateString",
+						"type": "string"
+					}
+				],
+				"name": "updateMyString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Goerli.sol": "Goerli"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Goerli.sol": {
+			"keccak256": "0x52be7e80c9a83eb280d22642a0c204094cfc551c8fd12ca7a54ef92e48e3f9c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://118a555fc189fcfbe15cb523b4348d6023a32141c729aab71f1adf9adb9f085d",
+				"dweb:/ipfs/QmUpjq5nkbCEfmsXqZGEpwAWj4Kc2FeAFGfm2e1hHzAWHA"
+			]
+		}
+	},
+	"version": 1
+}
